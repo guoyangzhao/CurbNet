@@ -23,3 +23,31 @@ We have developed and proposed the **3D-Curb dataset** based on the large-scale,
 - Our dataset can be visualized using SemanticKITTI **[API](https://github.com/PRBonn/semantic-kitti-api)**
 
 - The download link for the 3D-Curb dataset is **[HERE](https://drive.google.com/drive/folders/1u2PrRg6AsZCnDkZQS-GDA3N10olEmiD2?usp=sharing)**.
+
+- The annotation of the 3D-Curb dataset is based on the SemanticKITTI format. The point cloud file is stored in the **.bin** file and the label is in the corresponding **.label** file.
+
+
+### Attention: 
+
+Because the Curb category is additionally added, we set the Curb labels category to 3. Therefore, when using API visualization, please add **3: "curb"** to **label:** in **config/semantic-kitti.yaml** to increase the visualization of curb.
+
+
+### Data organization
+
+The data is organized in the following format:
+
+```
+/kitti/dataset/
+          └── sequences/
+                  ├── 00/
+                  │   ├── labels/
+                  │   │     ├ 000000.label
+                  │   │     └ 000001.label
+                  │   └── velodyne/
+                  │         ├ 000000.bin
+                  │         └ 000001.bin
+                  ├── 01/
+                  ├── 02/
+                  .
+                  └── 10/
+```
