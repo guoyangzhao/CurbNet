@@ -5,12 +5,15 @@
 
 ### Method:
 **Curb detection challenges and our proposed method.** Three main challenges of curb detection are shown (a) height feature extraction (b) different density distribution of point clouds (c) Curb point cloud quantity proportion imbalance. Solution: First propose a 3D-Curb dataset. The MSCA module is designed to extract features of the xy, xz and yz planes and perform multi-feature fusion. The loss group is proposed to solve the imbalance problem. Finally, we use post-processing to further improve performance.
-<img src="https://github.com/guoyangzhao/CurbNet/blob/main/images/cover-figure2.png" width="50%" height="auto">
+
+<img src="https://github.com/guoyangzhao/CurbNet/blob/main/images/cover-figure2.png" width="40%" height="auto">
 
 ### Framework:
-<img src="https://github.com/guoyangzhao/CurbNet/blob/main/images/framework.png" width="50%" height="auto">
+
+<img src="https://github.com/guoyangzhao/CurbNet/blob/main/images/framework.png" width="60%" height="auto">
 
 ### Detection Results in SemanticKITTI Dataset:
+
 <img src="https://github.com/guoyangzhao/CurbNet/blob/main/images/3Dcurb-no-occ2.png" width="50%" height="auto">
 
 
