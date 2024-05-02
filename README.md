@@ -22,7 +22,7 @@ We have developed and proposed the **3D-Curb dataset** based on the large-scale,
 
 - Our dataset can be visualized using SemanticKITTI **[API](https://github.com/PRBonn/semantic-kitti-api)**
 
-- The download link for the 3D-Curb dataset is **[HERE](https://drive.google.com/drive/folders/1u2PrRg6AsZCnDkZQS-GDA3N10olEmiD2?usp=sharing)**.
+- The download link for the 3D-Curb dataset is **[HERE](https://drive.google.com/drive/folders/1u2PrRg6AsZCnDkZQS-GDA3N10olEmiD2?usp=sharing)**. (It's only half open now)
 
 - The annotation of the 3D-Curb dataset is based on the SemanticKITTI format. The point cloud file is stored in the **.bin** file and the label is in the corresponding **.label** file.
 
