@@ -32,7 +32,7 @@ We have developed and proposed the **3D-Curb dataset** based on the large-scale,
 Because the Curb category is additionally added, we set the Curb labels category to 3. Therefore, when using API visualization, please add **3: "curb"** to **label:** in **config/semantic-kitti.yaml** to increase the visualization of curb.
 
 
-### Data organization
+### Data organization:
 
 The data is organized in the following format:
 
