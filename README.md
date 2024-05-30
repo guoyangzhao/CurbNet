@@ -6,11 +6,11 @@
 ### Method:
 **Curb detection challenges and our proposed method.** Three main challenges of curb detection are shown (a) height feature extraction (b) different density distribution of point clouds (c) Curb point cloud quantity proportion imbalance. Solution: First propose a 3D-Curb dataset. The MSCA module is designed to extract features of the xy, xz and yz planes and perform multi-feature fusion. The loss group is proposed to solve the imbalance problem. Finally, we use post-processing to further improve performance.
 
-<img src="https://github.com/guoyangzhao/CurbNet/blob/main/images/cover-figure2.png" width="40%" height="auto">
+<img src="https://github.com/guoyangzhao/CurbNet/blob/main/images/cover-figure527.png" width="40%" height="auto">
 
 ### Framework:
 
-<img src="https://github.com/guoyangzhao/CurbNet/blob/main/images/framework.png" width="60%" height="auto">
+<img src="https://github.com/guoyangzhao/CurbNet/blob/main/images/framework527.png" width="60%" height="auto">
 
 ### Detection Results in SemanticKITTI Dataset:
 
@@ -19,6 +19,7 @@
 
 ## 3D-Curb Datasets:
 We have developed and proposed the **3D-Curb dataset** based on the large-scale, open-source **SemanticKITTI dataset**, adding a new curb category with 3D label, while retaining the other original 28 semantic categories. This dataset was collected using a 64-line LiDAR, providing a comprehensive view of various street scenes as a universal autonomous driving dataset.
+<img src="https://github.com/guoyangzhao/CurbNet/blob/main/images/Dataset_construct527.png" width="50%" height="auto">
 
 - Our dataset can be visualized using SemanticKITTI **[API](https://github.com/PRBonn/semantic-kitti-api)**
 
