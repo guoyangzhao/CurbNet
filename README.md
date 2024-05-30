@@ -19,6 +19,7 @@
 
 ## 3D-Curb Datasets:
 We have developed and proposed the **3D-Curb dataset** based on the large-scale, open-source **SemanticKITTI dataset**, adding a new curb category with 3D label, while retaining the other original 28 semantic categories. This dataset was collected using a 64-line LiDAR, providing a comprehensive view of various street scenes as a universal autonomous driving dataset.
+
 <img src="https://github.com/guoyangzhao/CurbNet/blob/main/images/Dataset_construct527.png" width="50%" height="auto">
 
 - Our dataset can be visualized using SemanticKITTI **[API](https://github.com/PRBonn/semantic-kitti-api)**
