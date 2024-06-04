@@ -4,7 +4,7 @@
 <br>
 
 ### Method:
-**Curb detection challenges and our proposed method.** Three main challenges of curb detection are shown (a) height feature extraction (b) different density distribution of point clouds (c) Curb point cloud quantity proportion imbalance. Solution: First propose a 3D-Curb dataset. The MSCA module is designed to extract features of the xy, xz and yz planes and perform multi-feature fusion. The loss group is proposed to solve the imbalance problem. Finally, we use post-processing to further improve performance.
+**Curb detection challenges and our proposed method.** Three main challenges of curb detection are shown (a) height feature extraction (b) different density distribution of point clouds (c) Curb point cloud quantity proportion imbalance. Solution: First propose a 3D-Curb dataset. The MSCA module is designed for multi-scale spatial feature fusion and height feature extraction. The loss group is proposed to solve the imbalance problem. Finally, we use post-processing to further improve performance.
 
 <img src="https://github.com/guoyangzhao/CurbNet/blob/main/images/cover-figure527.png" width="40%" height="auto">
 
@@ -54,7 +54,7 @@ The data is organized in the following format:
                   └── 10/
 ```
 
-## Citations
+## Citations:
 If you find CurbNet or 3D-Curb Dataset useful in your research or applications, please consider giving us a star 🌟 and citing it.
 
 ```bibtex
