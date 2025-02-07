@@ -60,7 +60,7 @@ If you find CurbNet or 3D-Curb Dataset useful in your research or applications, 
 ```bibtex
 @article{zhao2024curbnet,
   title={CurbNet: Curb Detection Framework Based on LiDAR Point Cloud Segmentation},
-  author={Zhao, Guoyang and Ma, Fulong and Liu, Yuxuan and Qi, Weiqing and Liu, Ming},
+  author={Zhao, Guoyang and Ma, Fulong and Liu, Yuxuan and Qi, Weiqing and Liu, Ming and Ma, Jun},
   journal={arXiv preprint arXiv:2403.16794},
   year={2024}
 }
