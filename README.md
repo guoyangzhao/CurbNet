@@ -24,7 +24,7 @@ We have developed and proposed the **3D-Curb dataset** based on the large-scale,
 
 - Our dataset can be visualized using SemanticKITTI **[API](https://github.com/PRBonn/semantic-kitti-api)**
 
-- The download link for the 3D-Curb dataset is **[HERE](https://drive.google.com/drive/folders/1u2PrRg6AsZCnDkZQS-GDA3N10olEmiD2?usp=sharing)**. (It's only half open now)
+- You can download the 3D-Curb dataset through Baidu Netdisk **[HERE](https://pan.baidu.com/s/1YKtiCdgugzTxHD6dTpXNHQ)**, and the extraction code is 1234.
 
 - The annotation of the 3D-Curb dataset is based on the SemanticKITTI format. The point cloud file is stored in the **.bin** file and the label is in the corresponding **.label** file.
 
@@ -53,6 +53,10 @@ The data is organized in the following format:
                   .
                   └── 10/
 ```
+
+### NRS Dataset: 
+
+The original NRS dataset mentioned in the paper only has 2D labels. We project the 2D labels onto a 3D point cloud for processing and convert the data format to the same as SemanticKITTI. We have also made the processed NRS dataset public and can also be downloaded from Baidu Netdisk **[HERE](https://pan.baidu.com/s/1U6b5c6TxfruNT572_vwLYA)**, and the extraction code is 1234.
 
 ## Citations:
 If you find CurbNet or 3D-Curb Dataset useful in your research or applications, please consider giving us a star 🌟 and citing it.
